@@ -1,4 +1,4 @@
-# 🛍️ API de Cadastro de Produtos
+# API de Cadastro de Produtos
 
 Este projeto é uma API RESTful desenvolvida com Spring Boot para gerenciamento de produtos. Ele permite operações de CRUD (criar, ler, atualizar e deletar) com validações, persistência em banco de dados e documentação interativa via Swagger.
 
@@ -13,7 +13,6 @@ Este projeto é uma API RESTful desenvolvida com Spring Boot para gerenciamento 
 - 🗑️ Remover produto do sistema
 - 📄 Documentação interativa com Swagger
 - 🧪 Testes unitários e de integração
-- 🐳 Deploy com Docker
 
 ---
 
@@ -46,7 +45,7 @@ Este projeto é uma API RESTful desenvolvida com Spring Boot para gerenciamento 
   "preco": 299.90,
   "quantidade": 10
 }
-
+````
 
 Validações
 nome: obrigatório, mínimo 3 caracteres
@@ -62,6 +61,4 @@ Testes de integração com MockMvc
 
 Cobertura de testes para Service e Controller
 
-Para executar os testes:
-mvn test
 
